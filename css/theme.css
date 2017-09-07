@@ -13,9 +13,36 @@
 }
 
 body {
-  background-color: #f3f3f3 !important;
+  background-color: #333 !important;
+  -webkit-box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+  box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+  color: white !important;
 }
 
 body .site-name {
   font-family: 'Saira', sans-serif;
+}
+
+body .link {
+  color: white !important;
+  font-family: 'Saira', sans-serif;
+
+}
+
+.delay-1 {
+  animation-delay: .1s;
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+}
+
+.delay-2 {
+  animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+}
+
+.delay-3 {
+  animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
 }
