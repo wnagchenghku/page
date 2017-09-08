@@ -30,9 +30,9 @@ body .link {
 }
 
 .delay-1 {
-  animation-delay: .1s;
-  -webkit-animation-delay: .1s;
-  -moz-animation-delay: .1s;
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
 }
 
 .delay-2 {
@@ -45,4 +45,23 @@ body .link {
   animation-delay: .5s;
   -webkit-animation-delay: .5s;
   -moz-animation-delay: .5s;
+}
+
+.reverse:hover {
+  color: black !important;
+}
+
+.butn-paper {
+  border: 1px solid white;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 2px;
+  color: white;
+  margin-left: 5px;
+}
+
+.butn-paper:hover {
+  text-decoration: none;
+  color: black;
+  background: white;
 }
